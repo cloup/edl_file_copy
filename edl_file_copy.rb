@@ -50,7 +50,7 @@ while (line = edl.gets)
    m = regex.match(line)
    if ( m && m[1])
      # taking care of exception where filename ends in '_001' when it should not
-     record_key = m[1].sub(/_001$/, '')
+     record_key = m[1].sub(/_001$/, '.RDC')
      records.store(record_key.downcase, '')
    end
 end
