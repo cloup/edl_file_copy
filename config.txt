@@ -1,0 +1,8 @@
+# configuration file
+#
+# sample path for windows: 'c:\aaa\temp'
+# sample path for mac OSX: '/Users/christophe/Desktop/temp'
+
+SOURCEDIR = '/Volumes/01_DUB_TRAINED_FULL'
+DESTDIR = '/Volumes/samantha/_T_R_A_N_S_F_E_R/12-00087-1_Trained/source_full_res/disk1'
+EDL = 'sample.edl'
